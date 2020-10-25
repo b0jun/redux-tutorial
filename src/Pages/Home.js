@@ -1,6 +1,6 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import styled from "styled-components";
+import React from 'react';
+import { Link } from 'react-router-dom';
+import styled from 'styled-components';
 
 const Block = styled.div`
   height: 80vh;
@@ -43,10 +43,13 @@ const Home = () => {
       <Title>Redux Tutorial</Title>
       <Wrapper>
         <Item>
-          <SLink to="/counter">Counter</SLink>
+          <SLink to='/counter'>Counter</SLink>
         </Item>
         <Item>
-          <SLink to="/todos">Todos</SLink>
+          <SLink to='/todos'>Todos</SLink>
+        </Item>
+        <Item>
+          <SLink to='/sample'>Sample</SLink>
         </Item>
       </Wrapper>
     </Block>
